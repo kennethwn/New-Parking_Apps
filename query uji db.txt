@@ -1,0 +1,47 @@
+Query uji
+-----------
+
+uji 1 :
+tampilkan data kendaraan yang ingin keluar dengan pembayaran manual
+(hint : where pake kondisi dari plat nomor)
+
+
+uji 2 :
+tampilkan data kendaraan yang ingin keluar dengan pembayaran manual
+tetapi status pembayaran sudah lunas.
+(hint : where pake kondisi sama kaya uji 1, tapi make sure si status pembayaran udah "Lunas").
+
+uji 3 :
+tampilkan semua data kendaraan yang saat ini sedang parkir
+(hint : where pake kondisi yang jam keluarnya masih null or payment masih belum lunas).
+
+uji 4 :
+tampilkan total mobil yang sedang parkir
+(hint : select-count-where-mobilnya belum ada data jam keluar)
+
+uji 5 :
+tampilkan slot parkiran mobil yang kosong
+(hint : selectnya sama kaya uji 4 tapi kasih where 100 - mobil yang lagi parkir)
+
+uji 6,7 :
+sama kaya uji 4 dan 5 tapi buat motor
+
+uji 8,9 :
+sama kaya uji 4 dan 5 tapi buat truk
+
+uji 9,10 :
+sama kaya uji 4 dan 5 tapi buas bus
+
+uji 11 : 
+tampilkan jumlah slot parkiran terisi untuk truk dan bus
+(hint : pake select count yang truk OR bus terus pake AS "Lainnya")
+
+uji 12 :
+tampilkan jumlah semua slot parkir baik mobil, motor, truk, bus yang sedang terisi
+(hint : pake select count motor or mobil or truk or bus pake AS "Total")
+
+uji 13 :
+tampilkan semua data kendaraan yang sudah keluar dan tersimpan di database
+
+
+

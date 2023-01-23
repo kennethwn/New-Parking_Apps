@@ -1,0 +1,11 @@
+color code : 
+
+purple = 71, 33, 131
+blue ocean = 75, 86, 210
+blue sky = 130, 195, 236
+white scale = 241, 246, 245
+
+black = 0, 0, 0
+white = 255, 255, 255
+placeholder = 149, 149, 149
+grey = 219, 219, 219
